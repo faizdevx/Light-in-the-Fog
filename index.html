@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Light in the Fog</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop id="bg-video">
+    <source src="assets/nature.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+    <!-- Peaceful Voice -->
+    <audio id="peaceful-audio" autoplay loop>
+        <source src="assets/furelise.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    
+
+  <div class="container">
+    <div class="content-box">
+      <p id="verse-display">Feeling stuck in life?</p>
+      <button onclick="getRandomVerse()">Tap for Light</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
